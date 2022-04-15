@@ -1,0 +1,76 @@
+body{
+   margin: 0;
+  font-family: 'Source Serif 4', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+      font-size: 40px;
+
+}
+p{
+  color: dimgray;
+}
+.orange-color{
+    color: orange;
+}
+.first-section{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.first-section img{
+    width: 100%;
+}
+.top-bannar{
+    background-image: url("developer-portfolio/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+  height: 500px;
+padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    font-style:bold; 
+    background-image: linear-gradient(90deg, #EA7C0C, tomato);
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.dream-big{
+   background-image: url("developer-portfolio/dream-bg.png");
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+.shadow{
+  
+  box-shadow: 10px 10px 30px gray;
+  border-radius:5px;
+  height: 80%;
+  background-color: white;
+}
+.experiences{
+    background-image: url("developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stack{
+  border-left: 7px solid ;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#baby-web{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+  font-size:12px ;
+}
